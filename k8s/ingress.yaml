@@ -8,10 +8,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - esp32iotserver.ddns.net
+        - esp32iotserver.brennonloveless.com
       secretName: esp32-iot-server-crt
   rules:
-    - host: esp32iotserver.ddns.net
+    - host: esp32iotserver.brennonloveless.com
       http:
         paths:
           - path: /
